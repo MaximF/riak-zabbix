@@ -7,7 +7,6 @@ Zabbix conf and template for Riak
 1.) Install these crontabs under the riak user
 
 * * * * /usr/sbin/riak-admin status > /var/lib/riak/riak_admin_status.tmp
-* * * * /usr/sbin/riak-admin member-status > /var/lib/riak/riak_admin_member_status.tmp
 
 2.) Deploy the attached riak.conf to /etc/zabbix/zabbix_agentd.conf.d/
 
